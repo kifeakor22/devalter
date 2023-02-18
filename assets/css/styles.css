@@ -1,9 +1,9 @@
 body{
-    background-image: url("../images/back.png");
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: black;
+    background-color: rgb(34, 32, 32);
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 
 #cta {
     position: relative;
-    top: 200px;
+    top: 110px;
     text-align: center;
     color: white;
 }
@@ -40,6 +40,18 @@ header {
  #line{
     color: white !important;
 }
+.rounded {
+    border-radius: 50%;
+    margin-top: 120px;
+}
+
+.cta {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+
 
 nav {
     display: flex;
@@ -47,7 +59,7 @@ nav {
     justify-content:center;
 }
 .nav-brand {
-    position: fixed;
+    position: absolute;
     top: 10px;
 }
 
@@ -56,3 +68,38 @@ nav {
     width: 60px;
     height: auto;
 }
+
+.white-hr {
+    border-top: 1px solid white;
+}
+
+footer {
+    color: white;
+    position: relative;
+        top: 350px;
+        text-align: center;
+}
+
+.card {
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.scrollable {
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 789px) {
+    #cta {
+        margin-top: 0px;
+    }
+
+}
+
+
+
