@@ -82,7 +82,8 @@ footer {
 
 .card {
     margin-top: 40px;
-    margin-right: 5px;
+    margin-right: 20px;
+    box-shadow: 0 10px 21px 12px rgba(91, 158, 235, 0.79);
 }
 
 .card-title {
@@ -97,6 +98,15 @@ footer {
 @media only screen and (max-width: 789px) {
     #cta {
         margin-top: 0px;
+        position: relative;
+        top: 40px;
+    }
+    .scrollable{
+        margin: 10px;
+
+    }
+    .card{
+        box-shadow: 0 10px 21px 12px rgba(91, 158, 235, 0.79);
     }
 
 }
