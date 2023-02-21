@@ -95,6 +95,15 @@ footer {
     
 }
 
+#my_canvas {
+    display: block;
+    width: 414px;
+    height: 896px;
+    position: absolute;
+    bottom: 150px;
+    z-index: -3;
+}
+
 @media only screen and (max-width: 789px) {
     #cta {
         margin-top: 0px;
